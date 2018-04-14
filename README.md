@@ -1,8 +1,8 @@
 # Fuck The Supplicant
 
-This is a third-party Amrand Client Network Authentication Clients based on Python, support `BAS` authentication, some code references [lyq1996](https://github.com/lyq1996/).
+This is a third-party Amrand Client Network Authentication Clients based on Python, support `BAS` authentication, little code references [lyq1996](https://github.com/lyq1996/).
 
-Currently tested in the Yantai University network environment, other school schools may need to modify the **host IP**.
+Currently tested in the Yantai University network environment, other school may need to modify the **host IP**.
 
   
 
