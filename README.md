@@ -1,6 +1,6 @@
 # Fuck The Supplicant
 
-This is a third-party Amrand Client Network Authentication Clients based on Python, support `BAS` authentication, little code references [lyq1996](https://github.com/lyq1996/).
+This is a third-party Amrand Client Network Authentication Clients based on Python, support `BAS` authentication, socks code references [lyq1996](https://github.com/lyq1996/).
 
 Currently tested in the Yantai University network environment, other school may need to modify the **host IP**.
 
@@ -59,7 +59,7 @@ For more information please visit the [py2exe official website](http://www.py2ex
 
 ## Release
 
-- Windows: None
+- Windows: [fuck-the supplicant.exe](https://github.com/mayuko2012/fuck-the-supplicant/releases/tag/v0.1.1)
 - Mac OS: None
 
   
