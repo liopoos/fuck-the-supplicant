@@ -45,7 +45,7 @@ python setup.py py2app
 
 ## 发行版本
 
-fuck the supplicant.app
+[fuck the supplicant.app](https://github.com/mayuko2012/fuck-the-supplicant/releases/tag/v0.1.1)
 
    
 
