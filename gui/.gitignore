@@ -1,0 +1,11 @@
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+.idea
+dist
+build
+release
+frame.fbp
+main_copy.py
+config.fts
