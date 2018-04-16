@@ -15,13 +15,13 @@
 
 ## GUI版本
 
-详细介绍。
+[详细介绍](https://github.com/mayuko2012/fuck-the-supplicant/tree/master/gui)。
 
 
 
 ## Status APP版本
 
- 详细介绍。
+ [详细介绍](https://github.com/mayuko2012/fuck-the-supplicant/tree/master/sa)。
 
   
 
