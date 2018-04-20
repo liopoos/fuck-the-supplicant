@@ -219,16 +219,19 @@ class FuckTheSupplicant(rumps.App):
                 status = struct.unpack('B' * len(breathe_ret), breathe_ret)
                 if status[20] == 0:
                     print u"keep connect fail"
+                    self.status_flag = 0
+                    self.send_notice(u'opps！网络已断开')
                     self.status_menu.title = u"已掉线"
                     if self.re_upset:
-                        self.t_link.join(0)
                         print u"re upset"
+                        self.t_link.join(0)
                         self.t_link = threading.Thread(target=self.creat_process,
                                                        args=(self.mac_address, self.local_ip, self.host, self.number,
                                                              self.password,))
                         self.t_link.start()
                     else:
                         self.status_menu.title = u"重连失败"
+                        self.send_notice(u'尝试重新连接失败')
                 index += 3
 
     # encrypt
