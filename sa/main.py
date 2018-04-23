@@ -142,6 +142,7 @@ class FuckTheSupplicant(rumps.App):
         self.sock.settimeout(2)
         while self.link_attempts < 8 and int(self.status_flag) != 1 and int(self.status_flag) != -1:
             try:
+                self.link_attempts = 0
                 upnet_packet = self.generate_upnet(self.mac_address, self.local_ip, self.number, self.password)
                 session = self.upnet(self.sock, upnet_packet)
                 self.breathe(self.sock, self.mac_address, self.local_ip, session, self.index)
